@@ -1,0 +1,30 @@
+📋 INSTRUCCIONES DE INSTALACIÓN - SISTEMA DE BOLETOS AÉREOS
+
+1. REQUISITOS PREVIOS:
+   - Tener instalado: Visual Studio 2019 o superior
+   - Tener instalado: XAMPP (para MySQL) o MySQL Server
+   - Conexión a internet (para descargar paquetes NuGet)
+
+2. CONFIGURACIÓN DE LA BASE DE DATOS:
+   - Abrir XAMPP e iniciar MySQL
+   - Abrir phpMyAdmin (http://localhost/phpmyadmin)
+   - Ejecutar el archivo: script_base_datos.sql
+   - La base de datos se creará automáticamente
+
+3. CONFIGURACIÓN DEL PROYECTO:
+   - Extraer el archivo RAR
+   - Abrir el proyecto en Visual Studio
+   - Esperar a que se restauren los paquetes NuGet
+   - Compilar el proyecto (Ctrl+Shift+B)
+
+4. EJECUCIÓN:
+   - Presionar F5 para ejecutar
+   - El sistema está listo para usar
+
+5. CREDENCIALES DE LA BASE DE DATOS (en app.config):
+   - Servidor: localhost
+   - Base de datos: sistema_aerolinea
+   - Usuario: root
+   - Contraseña: (vacía)
+
+📞 Soporte: [David Josafat Vasquez Martinez] - []
